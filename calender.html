@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tandoori Bites</title>
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: #ffbe01;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            font-family: Shrikhand;
+            color: black;
+        }
+
+        img.logo {
+            margin-left: 20px;
+            margin-top: 20px;
+            float: left;
+        }
+
+        nav {
+            width: 78%;
+            background-color: #fa970d;
+            float: right;
+            font-size: 50px;
+            height: 120px;
+            margin-top: 65px;
+        }
+
+        nav ul {
+            float: right;
+            margin-top: -20px;
+            font-size: 90px;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            padding-left: 30px;
+            padding-right: 30px;
+            color: #ffffff;
+            background-color: #fa970d;
+            font-family: 'Shrikhand', Sans-Serif;
+            font-weight: 100;
+            font-size: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 14px;
+            font-family: verdana;
+            font-weight: bold;
+            height: 60px;
+            display: inline-block;
+            background-color: #fa970d;
+            color: White;
+            line-height: 90px;
+            text-align: center;
+            transition: 300ms;
+        }
+
+        nav a:active {
+            background-color: white;
+            color: black;
+            width: 100%;
+        }
+
+        nav ul li a:hover {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            transition: all ease 0.5s;
+        }
+
+        nav ul #link1 a:hover {
+            background-color: #ffbe01;
+        }
+
+        nav ul #link2 a:hover {
+            background-color: #0692ce;
+        }
+
+        nav ul #link3 a:hover {
+            background-color: #cd3362;
+        }
+
+        nav ul #link4 a:hover {
+            background-color: #9dc832;
+        }
+
+        nav ul #link5 a:hover {
+            background-color: #651188;
+        }
+
+        .spices {
+            margin-left: 900px;
+            margin-top: 250px;
+        }
+
+        p {
+            font-family: Fredericka the Great;
+            float: left;
+            font-size: 25px;
+        }
+
+        form {
+            font-family: Fredericka the Great;
+            font-size: 25px;
+        }
+
+        label {
+            font-family: Fredericka the Great;
+            font-size: 25px;
+        }
+
+        legend {
+            font-family: Fredericka the Great;
+            font-size: 25px;
+        }
+
+        h1 {
+            background-color: #9dc832;
+            text-align: center;
+            color: white;
+        }
+        h2 {
+            background-color: #9dc832;
+            text-align: center;
+            color: white;
+        }
+
+        input {
+            width: 150px;
+            height: 30px;
+            background-color: #9dc832;
+            font-family: Fredericka the Great;
+        }
+
+        .form {
+            border: 4px solid #9dc832;
+            width: 25%;
+            margin-left: 70%;
+        }
+
+        .request {
+            width: 70%;
+            float: left;
+        }
+        hr{
+            color:#9dc832;
+        }
+
+        .forms{
+            font-family: ;
+			float:left;
+			width:48%;
+        }
+
+        .columncontainer {
+            width: 100%;
+            display: flex;
+        }
+		.order{
+		width:100%;
+		height:380px;
+		display:flex;
+		}
+		.order1{
+		width:100%;
+		height:300px;
+		display:flex;
+		}
+        .bigform{
+            height:500px;
+        }
+        textarea{
+            font-family: Fredericka the Great;
+            font-size:18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="tandooribites.html"><img class="logo" src="images/logo.png" alt="Tandoori Bites Logo" height="250" width="250"></a>
+        <div id="nav">
+            <nav>
+                <ul>
+                    <li id="link1"><a href="tandooribites.html">Home</a></li>
+                    <li id="link2"><a href="about.html">About Us</a></li>
+                    <li id="link3"><a href="menu.html">Menu</a></li>
+                    <li id="link4"><a href="calender.html">Calendar and Order</a></li>
+                    <li id="link5"><a href="review.html">Reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br><br>
+    </header>
+    <br><br>
+<img src="images/tbcalendar.png" alt="Calendar" height="1050px" width="99%"></a>
+
+    <h1>Request the Food Truck!</h1>
+
+    <div class="request">
+        <p>Is there any specific destination you want our food truck to come? If yes, please fill out the form to the right and provide any other necessary information. We will contact you back within 2-4 business days. Keep in mind we will not be able to fulfill every request, although we will try our best. For us to come to your requested place, we will need to be within a 300-mile radius. Please contact us at least a month before your event. Thank you!</p>
+    <center>
+    <img src="images/calendar.png" height="390" width="768">
+    </center>
+    </div>
+<div class="bigform">
+    <div class="form">
+<form action="https://formsubmit.co/mangoxtract@gmail.com" method="POST">
+        <form>
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email">
+            <br>
+            <hr>
+            <label for="myDate">Choose a Date:</label>
+            <input type="date" name="myDate" id="myDate">
+            <hr>
+
+                <legend>Where are we coming?</legend>
+                <label for="street">Street:</label>
+                <input type="text" name="street" id="street" size="54">
+                <br>
+                
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city">
+                <br>
+                
+                <label for="state">State:</label>
+                <input type="text" name="state" id="state" maxlength="2" size="5">
+                <br>
+                
+                <label for="zip">Zip:</label>
+                <input type="text" name="zip" id="zip" maxlength="5" size="5">
+                <br>
+            <hr>
+            <label for="time">What time do we get there? (Give us an end and start time):</label>
+            <input type="text" name="time" id="time">
+            <hr>
+            
+            <label for="comments">Comments:</label>
+            <br>
+            <textarea cols="40" rows="5" id="comments">Enter your comments here</textarea>
+            <br>
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+ <h1>Order Now!</h1>
+<div class="order">
+  <div class="column1" style="width: 50%; float: left; margin: 10px;font-family: Fredericka the Great;font-size:25px;">
+  <h2 style="font-family: Shrikhand;font-size:23px;">Signature Streetfood!</h2>
+    <form action="https://formsubmit.co/mangoxtract@gmail.com" method="POST">
+      <input type="checkbox" value="yes" name="item">Samosa Chaat...$4.99<br>
+      <input type="checkbox" value="yes" name="item">Papri Chaat...$4.99<br>
+      <input type="checkbox" value="yes" name="item">Samosas (2)...$4.99<br>
+      <input type="checkbox" value="yes" name="item">Pakora (10)...$5.99<br>
+      <input type="checkbox" value="yes" name="item">Pani Puri(6)...$5.99<br>
+      <input type="checkbox" value="yes" name="item">Bhel Puri...$4.99<br>
+  </div>
+  <div class="column2" style="width: 50%; float: right; margin: 10px;font-family: Fredericka the Great;font-size:25px;">
+    <h2 style="font-family: Shrikhand;font-size:23px;">Drinks!</h2>
+      <input type="checkbox" value="yes" name="item">Fountain Drinks (Specify in Comments)...$1.99<br>
+      <input type="checkbox" value="yes" name="item">Bottled Water (Specify in Comments)...$2.99<br>
+      <input type="checkbox" value="yes" name="item">Thumbs Up...$3.99<br>
+      <input type="checkbox" value="yes" name="item">Filter Coffee...$3.99<br>
+      <input type="checkbox" value="yes" name="item">Masala Chai...$3.99<br>
+      <input type="checkbox" value="yes" name="item">Mango Lassi...$3.99<br>
+      <input type="checkbox" value="yes" name="item">Faloodas...$4.99<br>
+  </div>
+</div>
+<div class="order1">
+  <div class="column1" style="width: 50%; float: left; margin: 10px;font-family: Fredericka the Great;font-size:25px;">
+     <h2 style="font-family: Shrikhand;font-size:23px;">Specialty North Indian Dishes!</h2>
+      <input type="checkbox" value="yes" name="item">Rajma...$8.99<br>
+      <input type="checkbox" value="yes" name="item">Butter Chicken...$9.99<br>
+      <input type="checkbox" value="yes" name="item">Mattar Paneer...$8.99<br>
+      <input type="checkbox" value="yes" name="item">Vada Pav...$9.99<br>
+      <input type="checkbox" value="yes" name="item">Chole...$7.99<br>
+  </div>
+  <div class="column2" style="width: 50%; float: left; margin: 10px;font-family: Fredericka the Great;font-size:25px;">
+    <h2 style="font-family: Shrikhand;font-size:23px;">Specialty South Indian Dishes!</h2>
+      <input type="checkbox" value="yes" name="item">Hyderabadi Dumb Biryani...$10.99<br>
+      <input type="checkbox" value="yes" name="item">Idli Sambar...$9.99<br>
+      <input type="checkbox" value="yes" name="item">Puttu Kadala Curry...$8.99<br>
+      <input type="checkbox" value="yes" name="item">Masala Dosa...$7.99<br>
+      <input type="checkbox" value="yes" name="item">Pulihora...$8.99<br>
+  </div>
+</div>
+<div class="order">
+  <div class="column1" style="width: 50%; float: left; margin: 10px;font-family: Fredericka the Great;font-size:25px;">
+    <h2 style="font-family: Shrikhand;font-size:23px;">Sides!</h2>
+      <input type="checkbox" value="yes" name="item">Extra Mirchi Kasalan or Raita...$0.99<br>
+      <input type="checkbox" value="yes" name="item">Bowl of Rice...$1.99<br>
+      <input type="checkbox" value="yes" name="item">Flatbread (Specify in comments)...$1.99<br>
+      <input type="checkbox" value="yes" name="item">Dal...$2.99<br>
+      <input type="checkbox" value="yes" name="item">Protein (Specify in comments)...$4.99<br>
+  </div>
+  <div class="column1" style="width: 50%; float: left; margin: 10px;font-family: Fredericka the Great;font-size:25px;">
+    <h2 style="font-family: Shrikhand;font-size:23px;">Fresh Out the Tandoor!</h2>
+      <input type="checkbox" value="yes" name="item">Tandoori Chicken...$10.99<br>
+      <input type="checkbox" value="yes" name="item">Tandoori Fish...$10.99<br>
+      <input type="checkbox" value="yes" name="item">Tandoori Naan (5)...$11.99<br>
+      <input type="checkbox" value="yes" name="item">Tandoori Paneer...$7.99<br>
+      <input type="checkbox" value="yes" name="item">Tandoori Tikka...$8.99<br>
+  </div>
+</form>
+</div>
+<center>
+<label style="font-family: 'Fredericka the Great';font-size:25px;">Comments:</label>
+<br>
+<textarea name="comments" cols="80" rows="10"></textarea>
+<form action="https://formsubmit.co/mangoxtract@gmail.com" method="POST">
+    <input type="submit" value="Submit" style="width:300px;height:60px;font-size:25px;font-family: 'Fredericka the Great';">
+    <input type="reset" value="Reset" style="width:300px;height:60px;font-size:25px;font-family: 'Fredericka the Great';">
+</form>
+</center>
+
+
+    <footer>
+    </footer>
+</body>
+
+</html>
